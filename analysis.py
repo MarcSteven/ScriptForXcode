@@ -168,5 +168,9 @@ class BinaryImages:
     def betweenAddressInterval(self, address):
         addressInt = int(address,16)
         return self.baseAddress <= addressInt <= self.endAddress
+    
+        
+  if __name__ == '__main__':
+    main()
 
-main()
+
