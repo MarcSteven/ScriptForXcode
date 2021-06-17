@@ -7,7 +7,7 @@ SCRIPT_NAME=$(basename $0)
 # Arg2: NEW_YEAR
 # Arg3: File Path
 replace_copyright() {
-	sed -i '' -e "s|Copyright (c) 2010-${1}, Deusty, LLC|Copyright (c) 2010-${2}, Deusty, LLC|g" "$3"
+	sed -i '' -e "s|Copyright (c) 2010-${1}, Marc Steven|Copyright (c) 2010-${2}, Marc Steven|g" "$3"
 	return $?
 }
 
